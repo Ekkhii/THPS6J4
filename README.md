@@ -47,9 +47,9 @@
 	Le second bouton CAT sur lequel va cliquer le visiteur si nous avons réussi à le convaincre!
 </p>
 #### Acquisition
-l'acquisition : nous avons mis un formulaire sur la landing page dans lequel l'utilisateur peut renseigner son email afin d'obtenir une base mail depuis Mailchimp. 
+- l'acquisition : nous avons mis un formulaire sur la landing page dans lequel l'utilisateur peut renseigner son email afin d'obtenir une base mail depuis Mailchimp. 
     
-les metrics : Google analytics est installé sur la version statique du site Heroku permettant d'obtenir des stats sur les visiteurs en cours ainsi que les sessions passées sur notre landing page. 
+- les metrics : Google analytics est installé sur la version statique du site Heroku permettant d'obtenir des stats sur les visiteurs en cours ainsi que les sessions passées sur notre landing page. 
     
 #### Piste d'amélioration
 

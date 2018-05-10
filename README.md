@@ -47,10 +47,17 @@
 	Le second bouton CAT sur lequel va cliquer le visiteur si nous avons réussi à le convaincre!
 </p>
 #### Acquisition
-    l'acquisition : ce qui a été fait, comment cela a été fait, quelle était la cible
-    les metrics : le plus de stats que vous pouvez mettre (taux de conversion, nombre de visites, toussa toussa
+    l'acquisition : nous avons mis un formulaire sur la landing page dans lequel l'utilisateur peut renseigner son email afin d'obtenir une base mail depuis Mailchimp. 
+    
+    les metrics : Google analytics est installé sur la version statique du site Heroku permettant d'obtenir des stats sur les visiteurs en cours ainsi que les sessions passées sur notre landing page. 
+    
 #### Piste d'amélioration
-    pistes d'amélioration : l'avantage de la technique agile, est que l'on peut itérer très rapidement, à condition de savoir ce qui a marché et ce qui n'a pas marché. Dans cette partie, vous allez expliquer les enseignements que vous avez eus avec les metrics : des trucs qui marchaient, des trucs qui marchaient moins bien, ce que vous aurez fait si vous aviez une deuxième journée
+    pistes d'amélioration : 
+    
+    - ajout d'un google tag manager sur le CTA afin de voir le taux de clic sur le bouton subscribe. 
+    - récupération d'un annuaire / scrapper récupérant les adresses mail d'étudiants d'écoles afin de pouvoir partager l'ensemble de la landing page à un public plus ciblé. 
+    - la véritable amélioration aurait été d'avoir une base Mailchimp contenant une vraie newsletter THP 
+    - assez chaud d'utiliser google analytics sur une app rails. 
 
 
 ## Merci pour la correction ! 

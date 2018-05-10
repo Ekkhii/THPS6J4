@@ -47,17 +47,17 @@
 	Le second bouton CAT sur lequel va cliquer le visiteur si nous avons réussi à le convaincre!
 </p>
 #### Acquisition
-    l'acquisition : nous avons mis un formulaire sur la landing page dans lequel l'utilisateur peut renseigner son email afin d'obtenir une base mail depuis Mailchimp. 
+l'acquisition : nous avons mis un formulaire sur la landing page dans lequel l'utilisateur peut renseigner son email afin d'obtenir une base mail depuis Mailchimp. 
     
-    les metrics : Google analytics est installé sur la version statique du site Heroku permettant d'obtenir des stats sur les visiteurs en cours ainsi que les sessions passées sur notre landing page. 
+les metrics : Google analytics est installé sur la version statique du site Heroku permettant d'obtenir des stats sur les visiteurs en cours ainsi que les sessions passées sur notre landing page. 
     
 #### Piste d'amélioration
-    pistes d'amélioration : 
+
     
-    - ajout d'un google tag manager sur le CTA afin de voir le taux de clic sur le bouton subscribe. 
-    - récupération d'un annuaire / scrapper récupérant les adresses mail d'étudiants d'écoles afin de pouvoir partager l'ensemble de la landing page à un public plus ciblé. 
-    - la véritable amélioration aurait été d'avoir une base Mailchimp contenant une vraie newsletter THP 
-    - assez chaud d'utiliser google analytics sur une app rails. 
+   - ajout d'un google tag manager sur le CTA afin de voir le taux de clic sur le bouton subscribe. 
+   - récupération d'un annuaire / scrapper récupérant les adresses mail d'étudiants d'écoles afin de pouvoir partager l'ensemble de la landing page à un public plus ciblé. 
+   - la véritable amélioration aurait été d'avoir une base Mailchimp contenant une vraie newsletter THP 
+   - assez chaud d'utiliser google analytics sur une app rails. 
 
 
 ## Merci pour la correction ! 

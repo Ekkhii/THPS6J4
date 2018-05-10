@@ -1,0 +1,238 @@
+
+/*ICON BAR SOCIAL MEDIA*/
+.icon-bar {
+	z-index: 99;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+/*SECTION 1*/
+
+.first_section {
+	position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+
+}
+
+
+
+.top {
+	position: absolute;
+	top: 5%;
+	left: 45%;
+	height: 150px;
+	width: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5em;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+
+.centered_bottom {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-warning{
+	border-radius: 40px;
+
+}
+
+.btn {
+	height: 80px;
+	width: 500px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+/*SECTION 2*/
+
+
+.second_section {
+	height: 400px;
+	position: relative;
+}
+
+.col-lg-4 {
+	padding: 0;
+}
+
+
+.round-img {
+	border-radius: 50%;
+}
+
+.space {
+	margin-top: 50px;
+}
+
+.text_second_section {
+	padding: 20px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*SECTION 3*/
+
+.three_section p {
+	text-align: justify;
+}
+
+h3 {
+	text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+/*SECTION 4 FORM*/
+
+.four_section {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#mc_embed_signup{
+	clear:left; 
+	width:100%;
+}
+
+.title_form {
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 1px;
+	font-size: 2vw;
+
+}
+
+#mce-EMAIL {
+	text-align: center;
+	border-radius: 10px;
+	height: 50px;
+	width: 400px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+#mce-EMAIL:focus {
+	background-color: #cecece;
+}
+
+/*FOOTER*/
+
+footer {
+	background-color: #cecece;
+	height: 50px;
+	text-align: center;
+}
+
+.info_footer {
+	font-size: 1em;
+	padding-top: 10px;
+}
+
+
+/*MEDIA QUERIES */
+
+@media only screen and (max-width: 992px) {
+	.top {
+		display: none;
+	}
+	.centered {
+     	display: none;
+	}
+	.second_section {
+		height: 300px;
+	}
+	.col-sm-6 {
+		height: 550px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.top {
+		display: none;
+	}
+
+	.centered_bottom {
+	    position: absolute;
+	    bottom: -11%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+	.second_section {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.centered_bottom{
+		display: none;
+	}
+	.second_section {
+		height: 400px;
+	}
+} 

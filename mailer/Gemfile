@@ -1,0 +1,4 @@
+gem 'gmail'
+gem 'open-uri'
+gem 'nokogiri'
+gem 'mail'
